@@ -1,15 +1,32 @@
-# cassinologia
+# 🐾 Oncinha, Prima do Tigrinho 🐾
 
-Pior casa de cassino do mundo!
+Aplicação WEB desenvolvida como parte de um trabalho da disciplina de **Sistemas Operacionais e Servidores**, cujo objetivo é implementar e subir um serviço em alguma plataforma de **CLOUD**. 
 
-### install
+---
 
-```
-poetry install
-```
+## ⚠️ **AVISO IMPORTANTE** ⚠️
 
-### run
+> ### 🚨 **ATENÇÃO** 🚨
+>
+> A _Oncinha, prima do Tigrinho_ é apenas uma **PIADA** criada como parte de uma atividade acadêmica, com o objetivo de subir uma aplicação na nuvem. Este projeto **NÃO** tem propósito comercial ou de produção. Nós **NÃO** endossamos o uso desse tipo de aplicação em escala real — trata-se de um simples **meme**.
 
-```
-fastapi dev app.py
-```
+---
+
+## 🚀 **Tecnologias Utilizadas**:
+
+- A aplicação foi construída usando o framework **Flask**.
+- Importante ressaltar que grande parte do código é um **fork** de um projeto disponível no YouTube, que foi adaptado para os propósitos do nosso trabalho.
+
+---
+
+## 🔗 **Link para o Projeto Original**:
+
+https://www.youtube.com/watch?v=utFDQGoJJHI&t=16416s
+
+## 🔗 **Redes sociais do criador**
+
+@pipfreeze
+https://www.youtube.com/@programadorpython
+talk.code.com.br
+---
+
