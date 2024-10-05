@@ -21,11 +21,9 @@ Aplicação WEB desenvolvida como parte de um trabalho da disciplina de **Sistem
 
 ## 🔗 **Link para o Projeto Original**:
 
-Link do vídeo usado como base: https://www.youtube.com/watch?v=utFDQGoJJHI&t=2523s
-
-Link do repositório no Github: https://github.com/Iazzetta/cassinologia
-
-Criador: Iazzetta 
+- Link do vídeo usado como base: https://www.youtube.com/watch?v=utFDQGoJJHI&t=2523s
+- Link do repositório no Github: https://github.com/Iazzetta/cassinologia
+- Criador: Iazzetta 
 
 ---
 
