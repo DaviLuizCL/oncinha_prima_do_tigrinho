@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saque</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='app.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Fonte padrão para o corpo */
+            background-color: #f8f9fa; /* Cor de fundo suave */
+            color: #343a40; /* Cor do texto */
+            padding: 20px; /* Espaçamento ao redor do corpo */
+        }
+        h2 {
+            margin-bottom: 20px; /* Espaço abaixo do título */
+        }
+        .button {
+            display: inline-block; /* Faz o botão se comportar como um bloco */
+            padding: 10px 20px; /* Espaçamento interno do botão */
+            margin-top: 20px; /* Espaçamento acima do botão */
+            font-size: 16px; /* Tamanho da fonte do botão */
+            color: white; /* Cor do texto */
+            background-color: #007BFF; /* Cor de fundo do botão */
+            border: none; /* Remove bordas */
+            border-radius: 5px; /* Bordas arredondadas */
+            text-decoration: none; /* Remove sublinhado do link */
+            transition: background-color 0.3s ease; /* Animação de transição para a cor de fundo */
+        }
+        .button:hover {
+            background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h2>Você sacou seu saldo!</h2>
+        <img src="{{ url_for('static', path='saque.jpg') }}" alt="Saque" style="max-width: 100%; height: auto;">
+        <br>
+        <a href="/" class="button">Voltar para tela principal</a> <!-- Botão para voltar ao jogo -->
+        <br> <!-- Adiciona uma quebra de linha antes do próximo botão -->
+        <a href="/primos" class="button">Primos</a> <!-- Botão para primos -->
+    </div>
+</body>
+</html>

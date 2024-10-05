@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>Título da página</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    Aqui vai o código HTML que fará seu site aparecer.
-    <img src="imagens/logo1.png"   
-    alt="erro"
-    width="400"
-    height="341" />
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Tela Principal</title>
+    <style>
+        body {
+            text-align: center; /* Centraliza o conteúdo dentro do body */
+        }
+        .button {
+            display: inline-block; /* Faz o botão se comportar como um bloco */
+            padding: 10px 20px; /* Espaçamento interno do botão */
+            margin: 20px 0; /* Espaçamento externo do botão */
+            font-size: 16px; /* Tamanho da fonte do botão */
+            color: white; /* Cor do texto */
+            background-color: #007BFF; /* Cor de fundo do botão */
+            border: none; /* Remove bordas */
+            border-radius: 5px; /* Bordas arredondadas */
+            text-decoration: none; /* Remove sublinhado do link */
+        }
+        .button:hover {
+            background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <img src="/static/logo1.png" alt="Imagem da oncinha" width="620" height="620">
+    <br> <!-- Adiciona uma quebra de linha entre as imagens -->
+    <a href="jogo" class="button">Começar a ganhar dinheiro!!!!!</a> <!-- Link estilizado como botão -->
+    <br> <!-- Adiciona uma quebra de linha após o botão -->
+    <img src="/static/patrocinadores.png" alt="Imagem dos patrocinadores" width="900" height="200">
+</body>
 </html>

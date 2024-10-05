@@ -6,11 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joguinho</title>
     <link rel="stylesheet" href="{{ url_for('static', path='app.css') }}">
+    <style>
+        body {
+            display: flex; /* Usamos flexbox para facilitar o layout */
+            justify-content: space-between; /* Espaço entre os elementos */
+            align-items: flex-start; /* Alinha o conteúdo no início */
+            padding: 20px; /* Espaçamento ao redor do corpo */
+        }
+        .container {
+            text-align: center; /* Centraliza o conteúdo dentro do container */
+        }
+        .saldo {
+            text-align: right; /* Alinha o texto à direita */
+            margin-left: auto; /* Espaço automático à esquerda para empurrar para a direita */
+            max-width: 200px; /* Define a largura máxima para o saldo */
+        }
+        .button {
+            display: inline-block; /* Faz o botão se comportar como um bloco */
+            padding: 10px 20px; /* Espaçamento interno do botão */
+            margin: 10px 0; /* Espaçamento externo do botão */
+            font-size: 16px; /* Tamanho da fonte do botão */
+            color: white; /* Cor do texto */
+            background-color: #007BFF; /* Cor de fundo do botão */
+            border: none; /* Remove bordas */
+            border-radius: 5px; /* Bordas arredondadas */
+            text-decoration: none; /* Remove sublinhado do link */
+        }
+        .button:hover {
+            background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+        }
+        .sidebar {
+            display: flex;
+            flex-direction: column; /* Alinha os botões verticalmente */
+            justify-content: flex-start; /* Alinha os botões ao topo */
+            margin-right: 20px; /* Espaçamento à direita para separar do restante do conteúdo */
+        }
+    </style>
 </head>
 <body>
     
+    <div class="sidebar">
+        <a href="/" class="button">Voltar para a tela principal</a> <!-- Botão para voltar -->
+    </div>
+
     <div class="container">
-        
         {% include 'slot_desenho.html' %}
     
         <div class="actions">
@@ -31,6 +70,11 @@
         <button class="reset-saldo">Resetar saldo</button>
     </div>
 
+    <div class="saldo">
+        <a href="/sacar" class="button">Sacar</a> <!-- Botão para sacar -->
+    </div>
+
     <script src="{{ url_for('static', path='app.js') }}"></script>
+    
 </body>
 </html>
