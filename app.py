@@ -27,6 +27,16 @@ async def home(request: Request):
         context={"slots": new_game.slots, "player": player, "bank": bank},
     )
 
+@app.get("/jogo")
+async def home(request: Request):
+    new_game.girar_roleta()
+
+    return templates.TemplateResponse(
+        request=request,
+        name="jogo.html",
+        context={"slots": new_game.slots, "player": player, "bank": bank},
+    )
+
 
 @app.get("/reset-saldo")
 async def reset_saldo(request: Request):
